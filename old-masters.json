@@ -1,0 +1,52 @@
+{
+  "response":
+  {
+    "artist":"Fra Angelico",
+    "bio":"1395-1455",
+    "nationality":"Italian (Florence)",
+    "paintings":{
+      "Annunciation (Crotona)":{
+        "url":"http://imgur.com/3tdQ2lL",
+        "medium":"Tempera on Panel",
+        "date":"1433-1434",
+        "location":"Museum Diocesano, Crotona"
+      },
+      "Fiesole Altarpiece":{
+        "url":"http://imgur.com/pLrpByC",
+        "medium":"Tempera on Panel",
+        "date":"1424-1425",
+        "location":"Convent of San Domenico, Fiesole"
+      },
+      "San Marco Altarpiece":{
+        "url":"http://imgur.com/m6e5Yu6",
+        "medium":"Tempera on Wood",
+        "date":"1438-1443",
+        "location":"San Marco Museum, Florence"
+      },
+      "Adoration of the Magi (with Filippo Lippi)":{
+        "url":"http://imgur.com/3j7AbBn",
+        "medium":"Tempera on Wood",
+        "date":"c. 1440/1460",
+        "location":"National Gallery of Art, Washington DC"
+      },
+      "The Last Judgement":{
+        "url":"http://imgur.com/QvzehoV",
+        "medium":"Tempera on Panel",
+        "date":"1425-1430",
+        "location":"San Marco, Florence"
+      },
+      "Saint Lawrence Distributing Alms":{
+        "url":"http://imgur.com/OqUq3zs",
+        "medium":"Tempera and Gold Leaf Fresco",
+        "date":"1447",
+        "location":"Nicoline Chapel, Vatican City"
+      },
+      "Annunciation (San Marco)":{
+        "url":"http://imgur.com/p8iom6z",
+        "medium":"Fresco",
+        "date":"1437-1436",
+        "location":"Convent of San Marco, Florence"
+      }
+    }
+  }
+}
