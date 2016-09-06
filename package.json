@@ -1,0 +1,40 @@
+{
+  "name": "the-old-master-project",
+  "version": "0.0.1",
+  "description": "A comprehensive portal for exploring the work of the old masters",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswj11/old-master-project.git"
+  },
+  "keywords": [
+    "art",
+    "history",
+    "painting",
+    "old",
+    "master",
+    "sculpture",
+    "renaissance",
+    "baroque",
+    "mannerism"
+  ],
+  "author": "James Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswj11/old-master-project/issues"
+  },
+  "homepage": "https://github.com/jameswj11/old-master-project#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.74.0"
+  }
+}
