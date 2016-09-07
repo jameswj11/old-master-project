@@ -4,6 +4,10 @@ body {
 }
 
 img {
-  max-width: 200px;
+  max-width: 500px;
   padding: 5px;
+}
+
+div {
+  display: inline-block;
 }

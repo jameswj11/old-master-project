@@ -7,13 +7,18 @@ $(function(){
     success: function(data){
       data.forEach(function(artist){
         artist.paintings.forEach(function(paintings){
-          console.log(paintings)
+          let $div = $('<div>')
           let $img = $('<img>')
+          let $info = $('<p>')
 
           $img.attr('src', paintings.url)
-              .text(paintings.title)
 
-          $('body').append($img)
+          $info.text(paintings.title + ', ' + paintings.date)
+
+          $div.append($img)
+              .append($info)
+
+          $('body').append($div)
         })
       })
     }
