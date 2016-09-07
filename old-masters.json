@@ -145,5 +145,173 @@
         "location":"Museo Poldi Pezzoli, Milan"
       }
     ]
+  },
+    {
+    "artist":"Titian (Tiziano Vecelli)",
+    "bio":"1488/1490-1576",
+    "nationality":"Italian, Venice",
+    "paintings":[
+      {
+        "title":"Allegory of Prudence",
+        "url":"http://i.imgur.com/taW5gjk.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1565-1570",
+        "location":"National Gallery, London"
+      },
+      {
+        "title":"Assunta (Assumption of the Virgin)",
+        "url":"http://i.imgur.com/RdbGnY1.jpg",
+        "medium":"Oil on Panel",
+        "date":"1516-1518",
+        "location":"Santa Maria Gloriosa dei Frari, Venice"
+      },
+      {
+        "title":"Bacchus and Ariandne",
+        "url":"http://i.imgur.com/wEn5kot.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1522-1523",
+        "location":"National Gallery, London"
+      },
+      {
+        "title":"Danaë with Eros",
+        "url":"http://i.imgur.com/76J8Cy5.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1544",
+        "location":"National Museum of Capodimonte, Naples"
+      },
+      {
+        "title":"Diana and Actaeon",
+        "url":"http://i.imgur.com/LEoaOOh.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1556-1559",
+        "location":"National Gallery, London"
+      },
+      {
+        "title":"Equestrian Portrait of Charles V",
+        "url":"http://i.imgur.com/dTJLMsB.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1548",
+        "location":"Museo del Prado, Madrid"
+      },
+      {
+        "title":"Portrait of Federico II Gonzaga",
+        "url":"http://i.imgur.com/NGPoDN5.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1529",
+        "location":"Museo del Prado, Madrid"
+      },
+      {
+        "title":"Portrait of a Isabella of Portugal",
+        "url":"http://i.imgur.com/PUZvxCN.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1548",
+        "location":"Museo del Prado, Madrid"
+      },
+      {
+        "title":"Portrait of a Man in a Red Cap",
+        "url":"http://i.imgur.com/4wpicyd.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1510",
+        "location":"Frick Collection, New York City"
+      },
+      {
+        "title":"A Man With a Quilted Sleeve",
+        "url":"http://i.imgur.com/o87gDhX.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1509",
+        "location":"National Gallery, London"
+      },
+      {
+        "title":"The Rape of Europa",
+        "url":"http://i.imgur.com/npAEcdk.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1560-1562",
+        "location":"Isabella Stewart Gardner Museum, Boston"
+      },
+      {
+        "title":"Religion Saved by Spain",
+        "url":"http://i.imgur.com/h31xGBD.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1572-1575",
+        "location":"Museo del Prado, Madrid"
+      },
+      {
+        "title":"Self-Portrait",
+        "url":"http://i.imgur.com/iastiND.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1567",
+        "location":"Museo del Prado, Madrid"
+      },
+      {
+        "title":"The Punishment of Marsyas",
+        "url":"http://i.imgur.com/HxSIYTx.jpg",
+        "medium":"Oil on Canvas",
+        "date":"c. 1570-1576",
+        "location":"National Museum, Kroměříž"
+      },
+      {
+        "title":"Venus with Organist and Cupid",
+        "url":"http://imgur.com/nD9iEX0.jpg",
+        "medium":"Oil on Canvas",
+        "date":"1548",
+        "location":"Museo del Prado, Madrid"
+      }
+    ]
+  },
+    {
+    "artist":"Masaccio",
+    "bio":"1401-1428",
+    "nationality":"Italian, Florence",
+    "paintings":[
+      {
+        "title":"Crucifixion",
+        "url":"http://i.imgur.com/QKsuhGy.jpg",
+        "medium":"Tempera on Panel",
+        "date":"c. 1426",
+        "location":"Museo di Capodimonte, Naples"
+      },
+      {
+        "title":"Desco da Parto",
+        "url":"http://i.imgur.com/MuGorM2.jpg",
+        "medium":"Tempera on Wood",
+        "date":"1427-1428",
+        "location":"Gemäldegalerie, Berlin"
+      },
+      {
+        "title":"Madonna and Child with Angels",
+        "url":"http://i.imgur.com/xEEWyQ9.jpg",
+        "medium":"Tempera",
+        "date":"1426",
+        "location":"National Gallery, London"
+      },
+      {
+        "title":"Saint Paul",
+        "url":"http://i.imgur.com/HirU5PP.jpg",
+        "medium":"Tempera on Wood",
+        "date":"1426",
+        "location":"Museo Nazionale di Pisa"
+      },
+      {
+        "title":"San Giovenale Triptych",
+        "url":"http://i.imgur.com/Ygxy806.jpg",
+        "medium":"Tempera on Panel",
+        "date":"1422",
+        "location":"Cascia di Reggello, Florence"
+      },
+      {
+        "title":"The Tribute Money",
+        "url":"http://i.imgur.com/xfVQ2TR.jpg",
+        "medium":"Fresco",
+        "date":"1424-1428",
+        "location":"Branacci Chapel, Florence"
+      },
+      {
+        "title":"Holy Trinity (Trinity with the Virgin, Saint John the Evangelist, and Donors",
+        "url":"http://i.imgur.com/B952tTm.jpg",
+        "medium":"Fresco",
+        "date":"1427",
+        "location":"Santa Maria Novella, Florence"
+      }
+    ]
   }
 ]
