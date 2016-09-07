@@ -3,7 +3,6 @@ const express    = require('express')
 const logger     = require('morgan')
 const path       = require('path')
 const bodyParser = require('body-parser')
-const $          = require('jQuery')
 
 const homeRoute  = require('./routes/home')
 const apiRoute   = require('./routes/api')
