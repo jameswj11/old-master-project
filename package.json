@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A comprehensive portal for exploring the work of the old masters",
   "main": "app.js",
+  "engines":{"node":"6.2.1"},
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"

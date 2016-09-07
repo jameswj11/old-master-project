@@ -1,13 +1,22 @@
 body {
   text-align: center;
+  color: white;
   font-family: 'Lato', sans-serif;
+  background-color: black;
 }
 
 img {
   max-width: 500px;
-  padding: 5px;
+  padding: 10px;
 }
 
 div {
   display: inline-block;
+  padding-bottom: 20px;
+}
+
+p {
+  max-width: 300px;
+  margin: 0 auto;
+  color: lightgray;
 }
