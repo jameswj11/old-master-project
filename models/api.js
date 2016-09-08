@@ -4,8 +4,15 @@ const request  = require('request')
 const jsonData = require('../old-masters.json')
 
 module.exports = {
-  getArt: function(req, res, next){
-    res.art = jsonData;
+  searchArt: function(req, res, next){
+    if('artist' in req.query){
+      res.art = jsonData.artists.filter(function(artist){
+        return artist.name.toLowerCase()
+          .includes(req.query.artist.toLowerCase())
+      })
+    } else {
+      res.art = jsonData;
+    }
     next()
   }
 }

@@ -1,26 +1,58 @@
 $(function(){
   console.log('document ready')
-  $.ajax({
-    url:'/api',
-    method: 'GET',
-    dataType: 'json',
-    success: function(data){
-      data.forEach(function(artist){
-        artist.paintings.forEach(function(paintings){
-          let $div = $('<div>')
-          let $img = $('<img>')
-          let $info = $('<p>')
 
-          $img.attr('src', paintings.url)
+  function getAllArt(){
+    $.get('/api').done((data)=>{
+        data.artists.forEach((artist)=>{
+          artist.artworks.forEach((artwork)=>{
+            let $img = $('<img>').addClass('thumbnail')
 
-          $info.text(paintings.title + ', ' + paintings.date)
+            $img.attr('src', artwork.url)
 
-          $div.append($img)
-              .append($info)
-
-          $('body').append($div)
+            $('#main').append($img)
+          })
         })
-      })
-    }
+      }
+    )
+  }
+
+
+  function searchArtist(){
+    let artistName = $('#dropdown option:selected').val()
+    let data       = {artist: artistName}
+
+    $.get('/api', data).done((data)=>{
+      renderArtist(data);
+    })
+  }
+
+
+  function renderArtist(artist){
+    $('#main').empty()
+
+    let artistObject = artist[0];
+    let $artistName  = $('<h3>').text(
+      artistObject.name + ' ' + '(' + artistObject.bio + ')')
+
+    $('#main').append($artistName)
+
+    artistObject.artworks.forEach((artwork)=>{
+      let $div  = $('<div>').addClass('artwork')
+      let $img  = $('<img>')
+      let $info = $('<p>')
+
+      $img.attr('src', artwork.url)
+      $info.text(artwork.title + ', ' + artwork.date)
+
+      $div.append($img).append($info)
+
+      $('#main').append($div)
+    })
+  }
+
+  //initial functions load upon page load
+  getAllArt()
+  $('#dropdown').change(()=>{
+    searchArtist()
   })
 })
