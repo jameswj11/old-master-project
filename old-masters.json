@@ -7,6 +7,7 @@
       "nationality":"Italian (Florence)",
       "artworks":[
         {
+          "maker":"Fra' Angelico",
           "title":"Annunciation (Crotona)",
           "url":"http://i.imgur.com/3tdQ2lL.jpg",
           "medium":"Tempera on Panel",
@@ -14,6 +15,7 @@
           "location":"Museum Diocesano, Crotona"
         },
         {
+          "maker":"Fra' Angelico",
           "title":"Fiesole Altarpiece",
           "url":"http://i.imgur.com/pLrpByC.jpg",
           "medium":"Tempera on Panel",
@@ -21,6 +23,7 @@
           "location":"Convent of San Domenico, Fiesole"
         },
         {
+          "maker":"Fra' Angelico",
           "title":"San Marco Altarpiece",
           "url":"http://i.imgur.com/m6e5Yu6.jpg",
           "medium":"Tempera on Wood",
@@ -28,13 +31,15 @@
           "location":"San Marco Museum, Florence"
         },
         {
-          "title":"Adoration of the Magi (with Filippo Lippi)",
+          "maker":"Fra' Angelico and Fra' Filippo Lippi",
+          "title":"Adoration of the Magi",
           "url":"http://i.imgur.com/3j7AbBn.jpg",
           "medium":"Tempera on Wood",
           "date":"c. 1440/1460",
           "location":"National Gallery of Art, Washington DC"
         },
         {
+          "maker":"Fra' Angelico",
           "title":"The Last Judgement",
           "url":"http://i.imgur.com/QvzehoV.jpg",
           "medium":"Tempera on Panel",
@@ -42,6 +47,7 @@
           "location":"San Marco, Florence"
         },
         {
+          "maker":"Fra' Angelico",
           "title":"Saint Lawrence Distributing Alms",
           "url":"http://i.imgur.com/OqUq3zs.jpg",
           "medium":"Tempera and Gold Leaf Fresco",
@@ -49,6 +55,7 @@
           "location":"Nicoline Chapel, Vatican City"
         },
         {
+          "maker":"Fra' Angelico",
           "title":"Annunciation (San Marco)",
           "url":"http://i.imgur.com/p8iom6z.jpg",
           "medium":"Fresco",
@@ -64,6 +71,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Sandro Botticelli",
           "title":"Portrait of Giuliano de'Medici",
           "url":"http://i.imgur.com/xNw71fY.jpg",
           "medium":"Tempera on Panel",
@@ -71,6 +79,7 @@
           "location":"Accademia Carrara, Bergamo"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Birth of Venus",
           "url":"http://i.imgur.com/9xq6dOo.jpg",
           "medium":"Tempera on Canvas",
@@ -78,6 +87,7 @@
           "location":"Uffizi, Florence"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Portrait of a Young Woman (Simonetta Vespucci)",
           "url":"http://i.imgur.com/7TBIQSt.jpg",
           "medium":"Tempera on Wood",
@@ -85,6 +95,7 @@
           "location":"Städel, Frankfurt"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Lamentation Over the Dead Christ",
           "url":"http://i.imgur.com/hVyUAWo.jpg",
           "medium":"Tempera on Panel",
@@ -92,6 +103,7 @@
           "location":"Alte Pinakothek, Munich"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Madonna and Child with Saint John the Baptist",
           "url":"http://i.imgur.com/LEoaOOh.jpg",
           "medium":"Tempera on Panel",
@@ -99,6 +111,7 @@
           "location":"Louvre, Paris"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Mystical Naitivity",
           "url":"http://i.imgur.com/CSN2DOv.jpg",
           "medium":"Tempera on Canvas",
@@ -106,6 +119,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Portrait of a Young Man with a Red Hat",
           "url":"http://i.imgur.com/VNJaxFr.jpg",
           "medium":"Tempera",
@@ -113,6 +127,7 @@
           "location":"Unknown"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Portrait of a Young Woman",
           "url":"http://i.imgur.com/9MUWbcV.jpg",
           "medium":"Tempera on Panel",
@@ -120,6 +135,7 @@
           "location":"Palazzo Pitti, Florence"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Portrait of a Youth",
           "url":"http://i.imgur.com/g8MO07h.jpg",
           "medium":"Tempera on Panel",
@@ -127,6 +143,7 @@
           "location":"National Gallery, Washington DC"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Primavera",
           "url":"http://i.imgur.com/Zmybz3j.jpg",
           "medium":"Tempera on Panel",
@@ -134,6 +151,7 @@
           "location":"Uffizi, Florence"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"The Outcast (Despair)",
           "url":"http://i.imgur.com/rMDHRIx.jpg",
           "medium":"Tempera on Wood",
@@ -141,6 +159,7 @@
           "location":"Unkown"
         },
         {
+          "maker":"Sandro Botticelli",
           "title":"Virgin and Child, Madonna of the Book",
           "url":"http://i.imgur.com/vLVFwxz.jpg",
           "medium":"Tempera on Panel",
@@ -156,6 +175,7 @@
       "nationality":"Italian, Venice",
       "artworks":[
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Allegory of Prudence",
           "url":"http://i.imgur.com/taW5gjk.jpg",
           "medium":"Oil on Canvas",
@@ -163,6 +183,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Assunta (Assumption of the Virgin)",
           "url":"http://i.imgur.com/RdbGnY1.jpg",
           "medium":"Oil on Panel",
@@ -170,6 +191,7 @@
           "location":"Santa Maria Gloriosa dei Frari, Venice"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Bacchus and Ariandne",
           "url":"http://i.imgur.com/wEn5kot.jpg",
           "medium":"Oil on Canvas",
@@ -177,6 +199,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Danaë with Eros",
           "url":"http://i.imgur.com/76J8Cy5.jpg",
           "medium":"Oil on Canvas",
@@ -184,6 +207,7 @@
           "location":"National Museum of Capodimonte, Naples"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Diana and Actaeon",
           "url":"http://i.imgur.com/LEoaOOh.jpg",
           "medium":"Oil on Canvas",
@@ -191,6 +215,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Equestrian Portrait of Charles V",
           "url":"http://i.imgur.com/dTJLMsB.jpg",
           "medium":"Oil on Canvas",
@@ -198,6 +223,7 @@
           "location":"Museo del Prado, Madrid"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Portrait of Federico II Gonzaga",
           "url":"http://i.imgur.com/NGPoDN5.jpg",
           "medium":"Oil on Canvas",
@@ -205,6 +231,7 @@
           "location":"Museo del Prado, Madrid"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Portrait of a Isabella of Portugal",
           "url":"http://i.imgur.com/PUZvxCN.jpg",
           "medium":"Oil on Canvas",
@@ -212,6 +239,7 @@
           "location":"Museo del Prado, Madrid"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Portrait of a Man in a Red Cap",
           "url":"http://i.imgur.com/4wpicyd.jpg",
           "medium":"Oil on Canvas",
@@ -219,6 +247,7 @@
           "location":"Frick Collection, New York City"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"A Man With a Quilted Sleeve",
           "url":"http://i.imgur.com/o87gDhX.jpg",
           "medium":"Oil on Canvas",
@@ -226,6 +255,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"The Rape of Europa",
           "url":"http://i.imgur.com/npAEcdk.jpg",
           "medium":"Oil on Canvas",
@@ -233,6 +263,7 @@
           "location":"Isabella Stewart Gardner Museum, Boston"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Religion Saved by Spain",
           "url":"http://i.imgur.com/h31xGBD.jpg",
           "medium":"Oil on Canvas",
@@ -240,6 +271,7 @@
           "location":"Museo del Prado, Madrid"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Self-Portrait",
           "url":"http://i.imgur.com/iastiND.jpg",
           "medium":"Oil on Canvas",
@@ -247,6 +279,7 @@
           "location":"Museo del Prado, Madrid"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"The Punishment of Marsyas",
           "url":"http://i.imgur.com/HxSIYTx.jpg",
           "medium":"Oil on Canvas",
@@ -254,6 +287,7 @@
           "location":"National Museum, Kroměříž"
         },
         {
+          "maker":"Titian (Tiziano Vecelli)",
           "title":"Venus with Organist and Cupid",
           "url":"http://imgur.com/nD9iEX0.jpg",
           "medium":"Oil on Canvas",
@@ -269,6 +303,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Masaccio",
           "title":"Crucifixion",
           "url":"http://i.imgur.com/QKsuhGy.jpg",
           "medium":"Tempera on Panel",
@@ -276,6 +311,7 @@
           "location":"Museo di Capodimonte, Naples"
         },
         {
+          "maker":"Masaccio",
           "title":"Desco da Parto",
           "url":"http://i.imgur.com/MuGorM2.jpg",
           "medium":"Tempera on Wood",
@@ -283,6 +319,7 @@
           "location":"Gemäldegalerie, Berlin"
         },
         {
+          "maker":"Masaccio",
           "title":"Madonna and Child with Angels",
           "url":"http://i.imgur.com/xEEWyQ9.jpg",
           "medium":"Tempera",
@@ -290,6 +327,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Masaccio",
           "title":"Saint Paul",
           "url":"http://i.imgur.com/HirU5PP.jpg",
           "medium":"Tempera on Wood",
@@ -297,6 +335,7 @@
           "location":"Museo Nazionale di Pisa"
         },
         {
+          "maker":"Masaccio",
           "title":"San Giovenale Triptych",
           "url":"http://i.imgur.com/Ygxy806.jpg",
           "medium":"Tempera on Panel",
@@ -304,6 +343,7 @@
           "location":"Cascia di Reggello, Florence"
         },
         {
+          "maker":"Masaccio",
           "title":"The Tribute Money",
           "url":"http://i.imgur.com/xfVQ2TR.jpg",
           "medium":"Fresco",
@@ -311,6 +351,7 @@
           "location":"Branacci Chapel, Florence"
         },
         {
+          "maker":"Masaccio",
           "title":"Holy Trinity (Trinity with the Virgin, Saint John the Evangelist, and Donors",
           "url":"http://i.imgur.com/B952tTm.jpg",
           "medium":"Fresco",
@@ -326,6 +367,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Ganymede Abducted by the Eagle",
           "url":"http://i.imgur.com/FDc9nYn.jpg",
           "medium":"Oil on Canvas",
@@ -333,6 +375,7 @@
           "location":"Kunsthistorisches Museum"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Allegory of Virtue",
           "url":"http://i.imgur.com/t08rF6R.jpg",
           "medium":"Oil on Canvas",
@@ -340,6 +383,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Assumption of the Virgin",
           "url":"http://i.imgur.com/NLENMYU.jpg",
           "medium":"Fresco",
@@ -347,6 +391,7 @@
           "location":"Cathedral of Parma"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Head of Christ",
           "url":"http://i.imgur.com/rZECrAL.jpg",
           "medium":"Oil on Panel",
@@ -354,6 +399,7 @@
           "location":"Getty Museum, Los Angeles"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Jupiter and Io",
           "url":"http://i.imgur.com/8duGLZC.jpg",
           "medium":"Oil on Canvas",
@@ -361,6 +407,7 @@
           "location":"Kunsthistorisches Museum"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Leda and the Swan",
           "url":"http://i.imgur.com/MYfN7aZ.jpg",
           "medium":"Oil on Canvas",
@@ -368,6 +415,7 @@
           "location":"Staatliche Museen, Berlin"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Naitivity (The Holy Night)",
           "url":"http://i.imgur.com/S557AqU.jpg",
           "medium":"Oil on Canvas",
@@ -375,6 +423,7 @@
           "location":"Gemäldegalerie, Dresden"
         },
         {
+          "maker":"Correggio (Antonio da Correggio)",
           "title":"Venus and Cupid with a Satyr",
           "url":"http://i.imgur.com/mbkOxc1.jpg",
           "medium":"Oil on Canvas",
@@ -390,6 +439,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Leonardo da Vinci",
           "title":"Adoration of the Magi",
           "url":"http://i.imgur.com/1e5NTMp.jpg",
           "medium":"Oil on Wood",
@@ -397,6 +447,7 @@
           "location":"Uffizi Gallery, Florence"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Annunciation",
           "url":"http://i.imgur.com/zfe3ob2.jpg",
           "medium":"Oil and Tempera on Panel",
@@ -404,6 +455,7 @@
           "location":"Uffizi Gallery, Florence"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Head of a Woman",
           "url":"http://i.imgur.com/lwcJvSN.jpg",
           "medium":"Earth, Amber, and White Lead on Panel",
@@ -411,6 +463,7 @@
           "location":"Galleria Nazionale, Parma"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Portrait of Isabella d'Este",
           "url":"http://i.imgur.com/EQk72zC.jpg",
           "medium":"Black and Red Chalk, Yellow Pastel Chalk on Paper",
@@ -418,6 +471,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"La Belle Ferronnière",
           "url":"http://i.imgur.com/3GCks2z.jpg",
           "medium":"Oil on Wood",
@@ -425,6 +479,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Lady with an Ermine",
           "url":"http://i.imgur.com/Cnh8tz0.jpg",
           "medium":"Oil on Walnut Panel",
@@ -432,6 +487,7 @@
           "location":"Czartoryski Museum, Kraków"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Mona Lisa",
           "url":"http://i.imgur.com/14Qs0q3.jpg",
           "medium":"Oil on Cottonwood Panel",
@@ -439,6 +495,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Saint John the Baptist",
           "url":"http://i.imgur.com/xCXndwO.jpg",
           "medium":"Oil on Walnut Panel",
@@ -446,6 +503,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"The Last Supper",
           "url":"http://i.imgur.com/7dlBNPx.jpg",
           "medium":"Tempera on Gesso",
@@ -453,6 +511,7 @@
           "location":"Santa Maria delle Grazie, Milan"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Virgin of the Rocks",
           "url":"http://i.imgur.com/5Hfpe0p.jpg",
           "medium":"Oil on Wood Panel, Transferred to Canvas",
@@ -460,6 +519,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Virgin and Child with Saint Anne and Saint John the Baptist",
           "url":"http://i.imgur.com/z5KgOyM.jpg",
           "medium":"Charcoal, Black and White Chalk on Paper, Mounted on Canvas",
@@ -467,6 +527,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Virgin of the Rocks (London Version)",
           "url":"http://i.imgur.com/XAF8iah.jpg",
           "medium":"Oil on Parqueted Poplar Panel",
@@ -474,6 +535,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Portrait of Ginerva de'Benci",
           "url":"http://i.imgur.com/8JuYkvj.jpg",
           "medium":"Oil and Tempera on Poplar Panel",
@@ -481,6 +543,7 @@
           "location":"National Gallery of Art, Washington DC"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"Portrait of a Musician (Unfinished)",
           "url":"http://i.imgur.com/UfcKC22.jpg",
           "medium":"Tempera and Oil on Walnut Panel",
@@ -488,6 +551,7 @@
           "location":"Pinacoteca Ambrosiana, Milan"
         },
         {
+          "maker":"Leonardo da Vinci",
           "title":"The Virgin and Child with Saint Anne",
           "url":"http://i.imgur.com/bJqstQ5.jpg",
           "medium":"Oil on Wood Panel",
@@ -503,6 +567,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Piero della Francesca",
           "title":"Baptism of Christ",
           "url":"http://i.imgur.com/yYCoycu.jpg",
           "medium":"Tempera on Panel",
@@ -510,6 +575,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"The Brera Madonna",
           "url":"http://i.imgur.com/H5ehjQl.jpg",
           "medium":"Tempera on Panel",
@@ -517,6 +583,7 @@
           "location":"Pinacoteca di Brera, Milan"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"Madonna di Senigallia",
           "url":"http://i.imgur.com/m4rZmG2.jpg",
           "medium":"Oil on Panel",
@@ -524,6 +591,7 @@
           "location":"Galleria Nazionale delle Marche, Urbino"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"Polyptych of the Misericordia",
           "url":"http://i.imgur.com/jP28ZWp.jpg",
           "medium":"Oil and tempera on panel",
@@ -531,6 +599,7 @@
           "location":"Museo Civico di Sansepolcro, Sansepolcro"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"Portrait of Sigismondo Pandolfo Malatesta",
           "url":"http://i.imgur.com/bENrQAi.jpg",
           "medium":"Oil and tempera on panel",
@@ -538,6 +607,7 @@
           "location":"Musée du Louvre, Paris"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"The Resurrection",
           "url":"http://i.imgur.com/HK1suxW.jpg",
           "medium":"Fresco",
@@ -545,6 +615,7 @@
           "location":"Museo Civico di Sansepolcro, Sansepolcro"
         },
         {
+          "maker":"Piero della Francesca",
           "title":"Flagellation of Christ",
           "url":"http://i.imgur.com/Hxq9Rof.jpg",
           "medium":"Oil and Tempera on Panel",
@@ -560,6 +631,7 @@
       "nationality":"Italian, Florence",
       "artworks":[
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Adoration in the Forest",
           "url":"http://i.imgur.com/dz7UC4M.jpg",
           "medium":"Tempera on panel",
@@ -567,13 +639,15 @@
           "location":"Staatliche Museen, Berlin"
         },
         {
-          "title":"Adoration of the Magi (with Fra' Angelico)",
+          "maker":"Fra' Filippo Lippi and Fra' Angelico",
+          "title":"Adoration of the Magi",
           "url":"http://i.imgur.com/OXtzYXt.jpg",
           "medium":"Tempera on panel",
           "date":"c. 1440/1460",
           "location":"National Gallery of Art, Washington DC"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Annunciation (Munich)",
           "url":"http://i.imgur.com/KEp0ySG.jpg",
           "medium":"Oil on wood",
@@ -581,6 +655,7 @@
           "location":"Alte Pinakothek, Munich"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Annunciation with Two Kneeling Donors",
           "url":"http://imgur.com/sX1VcSo.jpg",
           "medium":"Oil on panel",
@@ -588,6 +663,7 @@
           "location":"Galleria Nazionale d'Arte Antica, Rome"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Annunciation (London)",
           "url":"http://i.imgur.com/VulJnk2.jpg",
           "medium":"Tempera on panel",
@@ -595,6 +671,7 @@
           "location":"National Gallery, London"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Coronation of the Virgin",
           "url":"http://i.imgur.com/4226qnF.jpg",
           "medium":"Tempera on panel",
@@ -602,6 +679,7 @@
           "location":"Uffizi Gallery, Florence"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Funeral of Saint Jerome",
           "url":"http://i.imgur.com/nl4PZpE.jpg",
           "medium":"Tempera on Panel",
@@ -609,6 +687,7 @@
           "location":"Museo dellOpera del Duomo, Prato"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Madonna and Child Enthroned (Madonna of Tarquinia)",
           "url":"http://i.imgur.com/nhzvXCx.jpg",
           "medium":"Tempera on Panel",
@@ -616,6 +695,7 @@
           "location":"Galleria Nazionale d'Arte Antica, Rome"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Madonna of Palazzo Medici-Riccardi",
           "url":"http://i.imgur.com/Gy53f4I.jpg",
           "medium":"Tempera on Panel",
@@ -623,6 +703,7 @@
           "location":"Palazzo Medici-Riccardi, Florence"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Madonna with Child and Two Angels",
           "url":"http://i.imgur.com/vYL0jgz.jpg",
           "medium":"Tempera on Panel",
@@ -630,6 +711,7 @@
           "location":"Uffizi Gallery, Florence"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Martelli Annunciation",
           "url":"http://i.imgur.com/s6jMZVN.jpg",
           "medium":"Tempera on Panel",
@@ -637,6 +719,7 @@
           "location":"San Lorenzo, Florence"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Portrait of a Man and Woman at a Casement",
           "url":"http://i.imgur.com/OxdN5Ig.jpg",
           "medium":"Tempera on Panel",
@@ -644,6 +727,7 @@
           "location":"Metropolitan Museum of Art, New York City"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Portrait of a Woman",
           "url":"http://i.imgur.com/tz6sqYQ.jpg",
           "medium":"Tempera on wood",
@@ -651,6 +735,7 @@
           "location":"Gemäldegalerie, Berlin"
         },
         {
+          "maker":"Fra' Filippo Lippi",
           "title":"Seven Saints",
           "url":"http://i.imgur.com/skwi19P.jpg",
           "medium":"Tempera on Panel",

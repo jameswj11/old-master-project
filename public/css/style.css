@@ -5,16 +5,34 @@ body {
   background-color: black;
 }
 
+/*image styling*/
+
 .thumbnail {
   width: 232px;
   padding: 2px;
-  /*display: inline-block;*/
+  overflow: hidden;
+  position: relative;
 }
 
 img.large {
   max-width: 500px;
   padding: 10px;
 }
+
+/*div styling*/
+
+div.infoBox {
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  margin-top: -20%;
+  background-color: rgba(0,0,0,0.7)
+}
+
+/*grid styling*/
 
 #grid[data-columns]::before {
   content: '5 .column.size-1of5';
@@ -33,6 +51,8 @@ div#grid {
   margin: 0 auto;
 }
 
+/*header styling*/
+
 div#search {
   margin-bottom: 20px;
   display: inline-block;
@@ -46,8 +66,15 @@ button#submitSearch {
   margin-left: 10px;
 }
 
+/*text styling*/
+
 p {
   max-width: 400px;
   margin: 0 auto;
   color: lightgray;
 }
+
+p.info {
+  color: white;
+}
+
