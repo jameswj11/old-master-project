@@ -10,13 +10,31 @@ img {
   padding: 10px;
 }
 
-div {
+img.thumbnail {
+  max-width: 200px;
+  padding: 5px;
+}
+
+div.artwork {
   display: inline-block;
   padding-bottom: 20px;
 }
 
+div#search {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+input#search {
+  margin-left: 10px;
+}
+
+button#submitSearch {
+  margin-left: 10px;
+}
+
 p {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   color: lightgray;
 }
