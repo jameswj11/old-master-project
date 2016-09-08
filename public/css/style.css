@@ -10,6 +10,11 @@ img {
   padding: 10px;
 }
 
+img.thumbnail {
+  max-width: 200px;
+  padding: 5px;
+}
+
 div.artwork {
   display: inline-block;
   padding-bottom: 20px;
@@ -29,7 +34,7 @@ button#submitSearch {
 }
 
 p {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   color: lightgray;
 }
