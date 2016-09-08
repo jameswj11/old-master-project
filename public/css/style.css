@@ -10,9 +10,22 @@ img {
   padding: 10px;
 }
 
-div {
+div.artwork {
   display: inline-block;
   padding-bottom: 20px;
+}
+
+div#search {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+input#search {
+  margin-left: 10px;
+}
+
+button#submitSearch {
+  margin-left: 10px;
 }
 
 p {
