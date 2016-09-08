@@ -15,7 +15,7 @@ $(function(){
             let image     = document.createElement('img')
 
             imgDiv.maker = artwork.maker;
-            imgDiv.title = artwork.title;
+            imgDiv.named = artwork.title;
             image.src    = artwork.url;
 
             imgDiv.classList.add('thumbnail')
@@ -35,7 +35,7 @@ $(function(){
         $thumbnail.hover(function(){
           // let height   = $(this).height()
           let maker    = $(this)[0].maker;
-          let title    = $(this)[0].title;
+          let title    = $(this)[0].named;
 
           let $infoBox = $('<div>').addClass('infoBox')
 
@@ -44,6 +44,8 @@ $(function(){
                                  // .height(height)
           $infoBox.append($info)
           $(this).append($infoBox)
+
+          $infoBox.fadeTo('fast', 1)
 
         }, function(){
           $('.infoBox').remove()
