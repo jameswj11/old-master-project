@@ -5,19 +5,32 @@ body {
   background-color: black;
 }
 
-img {
+.thumbnail {
+  width: 232px;
+  padding: 2px;
+  /*display: inline-block;*/
+}
+
+img.large {
   max-width: 500px;
   padding: 10px;
 }
 
-img.thumbnail {
-  max-width: 200px;
-  padding: 5px;
+#grid[data-columns]::before {
+  content: '5 .column.size-1of5';
 }
 
-div.artwork {
-  display: inline-block;
-  padding-bottom: 20px;
+.column {
+  float: left;
+}
+
+.size-1of5 {
+  width: 20%;
+}
+
+div#grid {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 div#search {

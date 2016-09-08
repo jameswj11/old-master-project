@@ -1,15 +1,23 @@
 $(function(){
   console.log('document ready')
 
+  function appendToGrid(){
+    let $grid = $('#grid')
+  }
+
   function getAllArt(){
     $.get('/api').done((data)=>{
         data.artists.forEach((artist)=>{
           artist.artworks.forEach((artwork)=>{
-            let $img = $('<img>').addClass('thumbnail')
+            let itemArray = []
+            let grid      = document.getElementById('grid')
+            let image     = document.createElement('img')
 
-            $img.attr('src', artwork.url)
+            image.src = artwork.url;
+            image.classList.add('thumbnail')
 
-            $('#main').append($img)
+            itemArray.push(image)
+            salvattore.appendElements(grid, itemArray)
           })
         })
       }
@@ -38,7 +46,7 @@ $(function(){
 
     artistObject.artworks.forEach((artwork)=>{
       let $div  = $('<div>').addClass('artwork')
-      let $img  = $('<img>')
+      let $img  = $('<img>').addClass('large')
       let $info = $('<p>')
 
       $img.attr('src', artwork.url)
