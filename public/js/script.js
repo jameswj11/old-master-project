@@ -1,10 +1,6 @@
 $(function(){
   console.log('document ready')
 
-  function appendToGrid(){
-    let $grid = $('#grid')
-  }
-
   function getAllArt(){
     $.get('/api').done((data)=>{
         data.artists.forEach((artist)=>{
@@ -25,7 +21,6 @@ $(function(){
             itemArray.push(imgDiv)
 
             salvattore.appendElements(grid, itemArray)
-
           })
         })
 
