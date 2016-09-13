@@ -32,7 +32,7 @@ div#gridLarge {
   text-align: center;
 }
 
-/*div styling*/
+/*infobox styling*/
 
 div.infoBox {
   float: bottom;
@@ -95,13 +95,15 @@ p.thumb-desc {
   max-width: 400px;
   margin: 0 auto;
   color: lightgray;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 p.large-desc {
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: lightgray;
   font-size: 12px;
 }

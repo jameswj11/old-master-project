@@ -68,8 +68,7 @@ $(function(){
       let artistObject = artist[0];
 
       let $artistName  = $('<h4>').text(
-        (artistObject.name).toUpperCase() +
-        ', ' + artistObject.dates)
+        artistObject.name + ', ' + artistObject.dates)
 
       $('#wrapper').append($artistName)
 
@@ -77,16 +76,19 @@ $(function(){
       $('#wrapper').append($grid)
 
       artistObject.artworks.forEach((artwork)=>{
-        let $imgDiv = $('<div>').addClass('artwork')
-        let $image  = $('<img>').addClass('large')
-        let $desc   = $('<p>').addClass('large-desc')
+        let $imgDiv  = $('<div>').addClass('artwork')
+        let $image   = $('<img>').addClass('large')
+        let $desc    = $('<p>').addClass('large-desc')
 
         $imgDiv.addClass('artwork')
         $image.addClass('large')
         $desc.addClass('large-desc')
 
         $image.attr('src', artwork.url)
-        $desc.text(artwork.title + ', ' + artwork.date)
+        $desc.text(artwork.title +
+          ', ' + artwork.date +
+          ', ' + artwork.medium.toLowerCase() +
+          ', ' + artwork.location)
 
         $imgDiv.append($image).append($desc)
 

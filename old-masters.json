@@ -67,7 +67,7 @@
     },
     {
       "name":"Sandro Botticelli",
-      "bio":"Florentine master of the early Renaissance, Botticelli was forgotten for centuries until as recent as the late 19th century. Today his works are revered as fine examples of strong Renaissance use of line.",
+      "bio":"Florentine master of the early Renaissance, Botticelli was forgotten for centuries until he became once again celebrated in the late 19th century. Today his works are revered as fine examples of strong Renaissance use of line.",
       "dates":"1445-1510",
       "movement":"Early Renaissance",
       "nationality":"Italian, Florence",
@@ -377,7 +377,7 @@
           "url":"http://i.imgur.com/FDc9nYn.jpg",
           "medium":"Oil on Canvas",
           "date":"c. 1531-1532",
-          "location":"Kunsthistorisches Museum"
+          "location":"Kunsthistorisches Museum, Vienna"
         },
         {
           "maker":"Correggio (Antonio da Correggio)",
@@ -409,7 +409,7 @@
           "url":"http://i.imgur.com/8duGLZC.jpg",
           "medium":"Oil on Canvas",
           "date":"1532-1533",
-          "location":"Kunsthistorisches Museum"
+          "location":"Kunsthistorisches Museum, Vienna"
         },
         {
           "maker":"Correggio (Antonio da Correggio)",
