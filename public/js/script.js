@@ -5,6 +5,7 @@ $(function(){
     $.get('/api').done((data)=>{
         data.artists.forEach((artist)=>{
           artist.artworks.forEach((artwork)=>{
+
             let itemArray = []
             let grid      = document.getElementById('grid')
             let imgDiv    = document.createElement('div')
@@ -12,6 +13,7 @@ $(function(){
 
             imgDiv.maker = artwork.maker;
             imgDiv.named = artwork.title;
+            imgDiv.date  = artwork.date;
             image.src    = artwork.url;
 
             imgDiv.classList.add('thumbnail')
@@ -28,15 +30,15 @@ $(function(){
         let $thumbnail = $('.thumbnail')
 
         $thumbnail.hover(function(){
-          // let height   = $(this).height()
           let maker    = $(this)[0].maker;
           let title    = $(this)[0].named;
+          let date     = $(this)[0].date;
 
           let $infoBox = $('<div>').addClass('infoBox')
 
-          let $info    = $('<p>').addClass('info')
-                                 .text(maker + ', ' + title)
-                                 // .height(height)
+          let $info    = $('<p>').addClass('thumb-desc')
+                                 .text(maker + ', ' + title + ', ' + date)
+
           $infoBox.append($info)
           $(this).append($infoBox)
 
@@ -53,8 +55,6 @@ $(function(){
     let artistName = $('#dropdown option:selected').val()
     let data       = {artist: artistName}
 
-    console.log(artistName)
-
     $.get('/api', data).done((data)=>{
       renderArtist(data);
     })
@@ -62,32 +62,45 @@ $(function(){
 
 
   function renderArtist(artist){
-    $('#grid').empty()
+    $('#wrapper').fadeOut('slow', function(){
+      $('#wrapper').empty()
 
-    let artistObject = artist[0];
-    let $artistName  = $('<h3>').text(
-      artistObject.name + ' ' + '(' + artistObject.bio + ')')
+      let artistObject = artist[0];
 
-    $('#grid').append($artistName)
+      let $artistName  = $('<h4>').text(
+        (artistObject.name).toUpperCase() +
+        ', ' + artistObject.dates)
 
-    artistObject.artworks.forEach((artwork)=>{
-      let $div  = $('<div>').addClass('artwork')
-      let $img  = $('<img>').addClass('large')
-      let $info = $('<p>')
+      $('#wrapper').append($artistName)
 
-      $img.attr('src', artwork.url)
-      $info.text(artwork.title + ', ' + artwork.date)
+      let $grid    = $('<div>').attr('id', 'gridLarge')
+      $('#wrapper').append($grid)
 
-      $div.append($img).append($info)
+      artistObject.artworks.forEach((artwork)=>{
+        let $imgDiv = $('<div>').addClass('artwork')
+        let $image  = $('<img>').addClass('large')
+        let $desc   = $('<p>').addClass('large-desc')
 
-      $('#grid').append($div)
+        $imgDiv.addClass('artwork')
+        $image.addClass('large')
+        $desc.addClass('large-desc')
+
+        $image.attr('src', artwork.url)
+        $desc.text(artwork.title + ', ' + artwork.date)
+
+        $imgDiv.append($image).append($desc)
+
+        $('#gridLarge').append($imgDiv)
+      })
+
+      $('#wrapper').fadeIn()
     })
   }
 
   //initial functions load upon page load
   getAllArt()
-  // thumbnailHover()
-  $('#dropdown').change(()=>{
+
+  $('#dropdown').change(function(){
     searchArtist()
   })
 })

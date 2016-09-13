@@ -8,47 +8,62 @@ body {
 /*image styling*/
 
 .thumbnail {
-  width: 232px;
+  max-width: 100%;
   padding-left: 2px;
   padding-right: 2px;
-  padding-bottom: 2px;
+  padding-bottom: 0px;
   overflow: hidden;
   position: relative;
 }
 
 img.large {
-  max-width: 500px;
+  max-height: 700px;
+  max-width: 100%;
   padding: 10px;
+  padding-bottom: 5px;
+}
+
+div.artwork {
+  display: inline-block;
+  max-width: 1200px;
+}
+
+div#gridLarge {
+  text-align: center;
 }
 
 /*div styling*/
 
 div.infoBox {
-  float: left;
-  position: relative;
+  float: bottom;
   margin: 0 auto;
+  margin-bottom: 5px;
   padding: 4px;
-  width: 232px;
-  margin-top: -30%;
-  background-color: rgba(0,0,0,0.7);
-  opacity: 0;
+  max-width: 600px;
 }
 
 /*grid styling*/
 
 #grid[data-columns]::before {
+  margin: 0 auto;
   content: '5 .column.size-1of5';
+}
+
+#gridLarge[data-columns]::before {
+  margin: 0 auto;
+  content: '2 .column.size-1of2';
 }
 
 .column {
   float: left;
 }
 
-.size-1of5 {
-  width: 20%;
+div#grid {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-div#grid {
+div#gridLarge {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -70,13 +85,76 @@ button#submitSearch {
 
 /*text styling*/
 
-p {
+h4 {
+  color: lightgray;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+p.thumb-desc {
   max-width: 400px;
   margin: 0 auto;
   color: lightgray;
+  font-size: 10px;
 }
 
-p.info {
-  color: white;
+p.large-desc {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: lightgray;
+  font-size: 12px;
+}
+
+/*responsive styling below*/
+
+@media screen and (max-width: 520px){
+  #grid[data-columns]::before {
+    content: '1 .column.size-1of1';
+  }
+}
+
+@media screen and (min-width: 521px) and (max-width: 799px) {
+  #grid[data-columns]::before {
+    content: '2 .column.size-1of2';
+  }
+}
+
+@media screen and (min-width: 800) and (max-width: 899px) {
+  #grid[data-columns]::before {
+    content: '3 .column.size-1of3';
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  #grid[data-columns]::before {
+    content: '4 .column.size-1of4';
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #grid[data-columns]::before {
+    content: '5 .column.size-1of5';
+  }
+}
+
+.size-1of1 {
+  width: 100%;
+}
+
+.size-1of2 {
+  width: 50%;
+}
+
+.size-1of3 {
+  width: 33.333%;
+}
+
+.size-1of4 {
+  width: 25%;
+}
+
+.size-1of5 {
+  width: 20%;
 }
 
