@@ -95,7 +95,7 @@ $(function(){
         $('#gridLarge').append($imgDiv)
       })
 
-      $('#wrapper').fadeIn()
+      $('#wrapper').fadeIn(2000)
     })
   }
 
